@@ -1,0 +1,32 @@
+#since tuples are immutable here is how we deal with them
+#creating a tuple
+
+thistuple=('God', 'is', 'love', 'He', 'loves', 'you')
+#extracting tuple values
+print(thistuple[:3])
+#checking for presence of element in tuple
+if "love" in thistuple:
+    print("Yes, 'love' is in this tuple")
+print(thistuple[-3:-1])
+#converting tuple into list
+list1=list(thistuple)
+print(list1)
+#changing an element in the tuple by changing the list
+list1[2]='hope'
+print(list1)
+list1.append('Joy')
+print(list1)
+#adding an element to the list
+list1.append(7)
+
+print(list1)
+#removing an element from the list
+list1.remove(7)
+
+print(list1)
+#converting list back to being a tuple
+tuple2=tuple(list1)
+
+#unpacking tuples
+cities_tuple = ('Nairobi', 'Mumbai', 'Osaka', 'Bujumbura')
+print(cities_tuple)
