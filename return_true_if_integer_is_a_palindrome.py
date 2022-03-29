@@ -15,5 +15,5 @@ def findPalindrome(x: int) -> bool:
         number //= 10
     return reversedNumber == x
     
-print(findPalindrome(123))
-print(findPalindrome(131))
+print(findPalindrome(123)) #returns False
+print(findPalindrome(131)) #returns True
