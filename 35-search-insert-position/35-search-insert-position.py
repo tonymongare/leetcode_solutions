@@ -10,11 +10,10 @@ class Solution:
                 break
             elif target > nums[-1]:
                 return len(nums)
-            elif target < nums[i] and i == 0:
+            elif target < nums[0]:
                 return 0
                 break
-            elif target > nums[i] and target > nums[i + 1]:
-                continue
+        
         return i
                 
             
