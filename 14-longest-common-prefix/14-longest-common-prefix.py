@@ -2,7 +2,6 @@ class Solution:
     def longestCommonPrefix(self, strs: List[str]) -> str:
        
         empty_string = ""
-        /////
         if strs is None or len(strs) == 0:
             return empty_string
         
