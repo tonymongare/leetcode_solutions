@@ -1,7 +1,6 @@
 
 class Solution:
     def addTwoNumbers(self, l1: Optional[ListNode], l2: Optional[ListNode]) -> Optional[ListNode]:
-      ////
         head = None
     # Reference of head which is null at this poin
         temp = None
