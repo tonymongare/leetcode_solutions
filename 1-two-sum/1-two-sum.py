@@ -8,7 +8,7 @@ class Solution:
                 return(i, new_hash_map[difference])
             else:
                 new_hash_map[n] = i
-             //
+             
 
         
 
